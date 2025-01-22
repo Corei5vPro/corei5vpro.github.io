@@ -1,0 +1,64 @@
+
+
+    @font-face {
+    font-family: 'Koruri Regular';
+    src: url('../fonts/Koruri-Regular-sub.eot');
+    src: url('../fonts/Koruri-Regular-sub.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Koruri-Regular-sub.woff') format('woff'),
+    url('../fonts/Koruri-Regular-sub.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Koruri Regular';
+}
+
+
+    body {
+        animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+    }
+    
+
+
+    @keyframes fadeIn {
+        0% {opacity: 0}
+        100% {opacity: 1}
+    }
+    
+    @-webkit-keyframes fadeIn {
+        0% {opacity: 0}
+        100% {opacity: 1}
+    }
+    
+
+    .imgmaru {
+        width:100px;
+        height:100px;
+        border-radius:50%;
+      }
+
+
+.helo {
+        font-family: 'Koruri Regular';
+}
+
+a {
+  text-decoration:none;
+   color: black;
+}
+
+body {
+  /* Firefox */
+  background: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  /* Chrome , Safari */
+  background: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  background: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  /* 代用 */
+  background-color: #eee;
+}
+background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+
+
+.about {
+    font-family: 'Koruri Regular';
+  }
