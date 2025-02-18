@@ -1,10 +1,11 @@
 * {
-    margin: 0 calc(50% - 50vw);
-    padding: 0px;
-    line-height: 1em;
-    outline: 2px solid blue;
+    margin: 0;
+    padding: 0;
 }
-
+.header, .about, .icon img {
+    margin: 0 auto; /* 中央揃え */
+    max-width: 100%; /* 画面幅にフィット */
+}
 
 .header {
     background: #222222;
