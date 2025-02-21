@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>かずの適当サイト</title>
+<style>
+  body {
+    -webkit-text-size-adjust: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Koruri", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .one {
+    width: 100%;
+    padding: 50px 20px;
+    background: radial-gradient(circle, rgba(58, 99, 255, 1), rgba(42, 179, 252, 1) 90%);
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 5rem);
+  }
+  .icon img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+    .one {
+      padding: 30px 10px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="one">
+    <h1>Hello!</h1>
+    <p>なんか練習で作ったサイトです。適当ですがお許しください()</p>
+  </div>
+  <div class="container">
+    <h1>About</h1>
+    <div class="icon"><img src="icon.jpg" alt="Icon"></div>
+    <p>スマホとPCが好きな人です。好きなスマホメーカーはLGとHuaweiです。AMD派です。</p>
+  </div>
+  <div class="container">
+    <h1>Device</h1>
+    <p>スマホ LG V60 ThinQ, Huawei nova 10, Galaxy Z Flip 3, LG V30+<br>PC Ryzen 7 5700X GTX1060</p>
+  </div>
+  <div class="container">
+    <h1>Twitter</h1>
+    <p><a href="https://x.com/Corei5vPro" style="color: white;">@Corei5vPro</a></p>
+  </div>
+</body>
+</html>
